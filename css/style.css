@@ -526,3 +526,16 @@ br {
     height: 10px;
     line-height: 0px;
 }
+
+.block_photo {
+    width: 400px;
+    height: auto;
+    margin: 0 auto 30px auto;
+    max-width: 100%;
+}
+
+.block_photo img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
