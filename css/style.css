@@ -488,9 +488,8 @@ body {
     font-weight: 400;
     line-height: 18px;
     text-align: center;
-    color: #636363;
+    color: #111;
     transition: .3s;
-    text-decoration: underline;
 }
 
 .content_body p a:hover {
@@ -526,8 +525,4 @@ br {
     content: '';
     height: 10px;
     line-height: 0px;
-}
-
-.block_info.help a {
-    text-decoration: none;
 }
