@@ -443,7 +443,7 @@ body {
     color: #111;
     font-family: "HelveticaNeueCyr", sans-serif;
     background-color: #fff;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .container {
@@ -454,13 +454,13 @@ body {
 }
 
 .content_body {
-    max-width: 700px;
+    max-width: 580px;
     width: 100%;
     margin: 50px auto;
 }
 
 .content_body h2 {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 20px;
     text-align: center;
@@ -468,27 +468,62 @@ body {
 }
 
 .content_body h3 {
-    font-size: 12px;
-    line-height: 28px;
+    font-size: 14px;
+    line-height: 18px;
     font-weight: 600;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .content_body p {
-    font-size: 12px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 18px;
     text-align: center;
     font-weight: 400;
     color: #111;
 }
 
 .content_body p a {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
+    line-height: 18px;
     text-align: center;
-    color: #111;
+    color: #636363;
     transition: .3s;
-    font-weight: 400;
     text-decoration: underline;
+}
+
+.content_body p a:hover {
+    opacity: .8;
+}
+
+.project {
+    margin-bottom: 10px;
+}
+
+.project:last-of-type {
+    margin-bottom: 0px;
+}
+
+.block_info {
+    margin-bottom: 15px;
+}
+
+.block_info:last-of-type {
+    margin-bottom: 0;
+}
+
+.block_head .head {
+    margin-bottom: 15px;
+}
+
+.block_head .body p {
+    margin-bottom: 15px;
+}
+
+br {
+    display: block;
+    content: '';
+    height: 10px;
+    line-height: 0px;
 }
