@@ -527,3 +527,7 @@ br {
     height: 10px;
     line-height: 0px;
 }
+
+.block_info.help a {
+    text-decoration: none;
+}
