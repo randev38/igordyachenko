@@ -534,6 +534,10 @@ br {
     max-width: 100%;
 }
 
+.block_photo.none {
+    display: none;
+}
+
 .block_photo img {
     max-width: 100%;
     width: 100%;
